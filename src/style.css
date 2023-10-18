@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/*  
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+*/
+
+header  {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+            
+}
+
+.titulo {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    color: #3F3D56;;
+    font-size: 32px;
+}
+
+.titulo span {
+    color: #EE24FF;
+    font-weight: 700;
+}
+
+.containerTitulo {
+    height: 40px;
+    width: 494px;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    
+}
+
+.containerTexto {
+    height: 107px;
+    width: 540px;
+    margin: auto;
+    
+    
+}   
+
+.containerTexto p span {
+    color: #828282;
+    font-weight: 700;
+}
+
+.containerTexto p {
+    font-size: 15px;
+    color: #828282;
+    font-weight: 400;
+    
+}
+
+
+strong {
+    color: #3F3D56;
+}
+
+.ultimoParagrafo {
+    margin-top: 32px;
+    text-align: center;
+    color: #828282;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.paragrafo1 {
+    text-align:center;  
+    
+}
+
+p {
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
+.containerUltimoParagrafo {
+    width: 626px;
+    height: 21px;
+    margin: auto;
+    margin-bottom: 64px;
+}
+
+.containerLine {
+    margin-bottom: 16px;
+    justify-content: center;
+    display: flex;
+}
+
+section svg {
+    color: #ECEFF2;    
+}
+
+.containerFinal {
+    justify-content: center;
+    display: flex;
+    
+}
+
+.containerFinal a + a {
+    margin-left: 42px;
+}
+
+.containerFinal a {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    color: #3F3D56;
+    
+    height: 176px;
+}
+
+.footer {
+    background-image: url(/images/Wave.png);
+    height: 114px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -110px;
+}
+
+
+
+
